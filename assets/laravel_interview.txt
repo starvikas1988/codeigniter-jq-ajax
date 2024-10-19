@@ -1,0 +1,11 @@
+composer create-project laravel/laravel laravel_auth
+
+composer require laravel/breeze --dev
+
+$main = array();
+foreach($array as $key => $arr){
+	$main['name'][] = $arr['name'];
+	$main['gender'][] = $arr['gender'];
+}
+
+print_r($main)
